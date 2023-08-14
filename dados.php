@@ -15,6 +15,7 @@
         $esporte = $_GET['esporte'];
         $comida = $_GET['comida'];
         echo($nome." tem $idade anos é nascido em $estado/$pais, seu esporte preferido é $esporte e sua comida preferida é $comida");
+        echo "<img src='./assets/img/$esporte.jpg' \">";
     ?>
 </body>
 </html>
