@@ -1,0 +1,46 @@
+.banner-dados {
+  align-items: flex-start;
+}
+
+.banner__descricao-dados {
+  font-size: 24px;
+  text-align: left;
+}
+
+.dados {
+  display: flex;
+  padding: 32px 16px;
+  flex-direction: column;
+  gap: 24px;
+  background-color: var(--azul-escuro);
+}
+
+.dados__img {
+  height: 228px;
+  border-radius: 8px;
+  border: 2px solid var(--creme-forte);
+}
+
+.dados__titulo {
+  color: var(--azul-claro);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.dados__lista {
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.dados__item {
+  color: var(--azul-mais-claro);
+  font-weight: 500;
+}
+
+.rodape{
+    height:6vh;
+}
