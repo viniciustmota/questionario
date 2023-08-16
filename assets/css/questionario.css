@@ -50,5 +50,22 @@
   .questionario__form{
     width: 60%;
   }
+
+  .questionario__grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
+}
+
+@media screen and (min-width:1728px) {
+  .questionario__form{
+    width: 50%;
+  }
+
+  .questionario__grid{
+    width: 80%;
+    gap: 32px  ;
+  }
 }

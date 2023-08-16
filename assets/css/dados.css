@@ -56,3 +56,28 @@
     width: 60%;
   }
 }
+
+@media screen and (min-width:1728px) {
+  .dados{
+    flex-direction: row;
+    justify-content: center;
+    gap: 56px;
+    height: 55vh;
+  }
+  
+  .dados__img{
+    width: 30%;
+  }
+
+  .dados__div{
+    width: 30%;
+  }
+
+  .dados__titulo{
+    text-align: left;
+  }
+
+  .dados__lista{
+    padding: 0;
+  }
+}

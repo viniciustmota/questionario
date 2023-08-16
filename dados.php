@@ -31,7 +31,7 @@
             <?php echo ("Que legal $nome!") ?>
         </h1>
         <p class="banner__descricao banner__descricao-dados">
-            <?php echo ("Você pratica $esporte,<br>
+            <?php echo ("Você pratica $esporte,
 há $tempo anos") ?>
         </p>
     </section>
