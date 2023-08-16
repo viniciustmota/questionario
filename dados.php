@@ -38,14 +38,16 @@ há $tempo anos") ?>
 
     <section class="dados">
         <?php echo "<img class='dados__img' src='./assets/img/$esporte.jpg' \">";
-        echo ("<div class='dados__div'><h2 class='dados__titulo'>Dados sobre você</h2>
-    <ul class='dados__lista'>
-    <li class='dados__item'>Gênero $sexo;</li>
-    <li class='dados__item'>Tem $idade anos</li>
-    <li class='dados__item'>Ja participou em $campeonatos campeonatos;</li>
-    <li class='dados__item'>Se alimenta bem: $alimentacao;</li>
-    <li class='dados__item'>Dorme $sono horas por dia;</li>
-    </ul></div>
+        echo ("<div class='dados__div'>
+                    <h2 class='dados__titulo'>Dados sobre você</h2>
+                    <ul class='dados__lista'>
+                        <li class='dados__item'>Gênero $sexo;</li>
+                        <li class='dados__item'>Tem $idade anos</li>
+                        <li class='dados__item'>Ja participou em $campeonatos campeonatos;</li>
+                        <li class='dados__item'>Se alimenta bem: $alimentacao;</li>
+                        <li class='dados__item'>Dorme $sono horas por dia;</li>
+                    </ul>
+                </div>
     ");
 
         ?>

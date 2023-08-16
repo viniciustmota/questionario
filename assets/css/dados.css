@@ -32,24 +32,27 @@
   font-weight: 500;
 }
 
-.rodape{
-    height:6vh;
+.rodape {
+  height: 6vh;
 }
 
-@media screen and (min-width:428px) {
+.dados__div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
+@media screen and (min-width: 428px) {
   .dados__img {
     width: 60%;
     height: auto;
   }
 
-  .dados{
+  .dados {
     align-items: center;
   }
 
-  .dados__div{
-    display: flex;
-    flex-direction: column;
+  .dados__div {
     width: 60%;
   }
 }
